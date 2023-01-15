@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(184, 154, 102);
+    color: rgb(68, 68, 60);
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 110%;
+}
+table, td, tr, th, caption {
+    padding: 5px 100px;
+    text-align: center;
+}
+label {
+    color: burlywood;
+    background-color: forestgreen;
+}
+td {
+    height: 25px;
+    width: 2000px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: rgb(2, 67, 245);
+
+}
+ul {
+    text-align: left;
+}
+#szallas {
+    margin-bottom: 30px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: rgb(174, 144, 92);
+}
+#utazas {
+    margin-top: 30px;
+    margin: auto;
+}
+button {
+    text-align: center; 
+    border: 3px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin-top: 50px;
+    color: rgb(68, 68, 60);
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+button:hover::before {
+    height: 180%;
+}
+.cim {
+    font-variant: small-caps;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header {
+    padding-bottom: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+.kep1 {
+    display: block;
+    float: center;
+    margin: auto;
+    width: 50%;
+}
+a:hover {
+    color: darkred;
+    text-decoration: underline;
+}
+.kep2 {
+    width: 300%;
+}
+.kep3 {
+    width: 130%;
+}
+.foo {
+    margin-top: 30px;
+    padding: 20px 20px;
+    background-color: rgb(174, 144, 92);
+}
+.imp {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.als {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 3px;
+}
+.csap {
+    width: 25%;
+    display: block;
+    float: right;
+    margin: auto;
+}
+.foc {
+    padding: 20px 5px;
+    background-color: rgb(164, 134, 82);
+}
+.szuk {
+    line-height: 0.8cm;
+    text-indent: 0.8cm;
+}
+.end::marker {
+    content: "💻";
+}
+.end2::marker {
+    content: "➔";
+}
